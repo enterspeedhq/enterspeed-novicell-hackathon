@@ -1,4 +1,4 @@
-import NovicellLogo from '../../Static/Images/novicell.jpg'
+import NovicellLogo from '../../Static/Images/novicell.png'
 import EnterspeedLogo from '../../Static/Images/enterspeed.png'
 
 function Home({page}: {
