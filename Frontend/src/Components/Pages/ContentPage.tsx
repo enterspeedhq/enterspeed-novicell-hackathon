@@ -6,7 +6,7 @@ function ContentPage({page}: {
   return (
       <div>
         <h1>{contentPage.headline}</h1>
-        <div dangerouslySetInnerHTML={{ __html: contentPage.content }} />
+        <div className="App-content" dangerouslySetInnerHTML={{ __html: contentPage.content }} />
       </div>
   );
 }
