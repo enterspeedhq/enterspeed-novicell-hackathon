@@ -1,0 +1,23 @@
+### Query API POC
+
+curl --request POST \
+  --url https://query.dev.enterspeed.io/v1-preview/product \
+  --header 'content-type: application/json' \
+  --header 'x-enterspeed-environment: 123e4567-e89b-12d3-a456-426614174000' \
+  --data '{
+	"filters": {
+		"availabilityStatus": {
+			"operator": "equals",
+			"value": "in stock"
+		}
+	},
+	"alias": [
+		"contentPage",
+		"categoryListTitle",
+		"frontpageListTile"
+	],
+	"pagination": {
+		"page": 0,
+		"page_size": 10
+	}
+}'

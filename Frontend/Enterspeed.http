@@ -1,5 +1,5 @@
 curl -L -X GET 'https://delivery.enterspeed.com/v2?url=http%3A%2F%2Flocalhost%3A3000%2Fhorror-movies%2F' -H 'X-Api-Key: environment-9523687b-eb23-4cc6-a38f-d866474535db'
 
-###
+### navigation
 
 curl -L -X GET 'https://delivery.enterspeed.com/v2?handle=navigation' -H 'X-Api-Key: environment-9523687b-eb23-4cc6-a38f-d866474535db'
